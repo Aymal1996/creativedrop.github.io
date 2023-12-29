@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav nav {
+  height: 100px;
+}
+
+.nav .navbar-brand img {
+  height: 100px;
+  min-height: 100px;
+  width: 100%;
+}
+
+.nav .navbar-collapse > ul:nth-child(2) {
+  margin-left: 250px;
+}
+
+.nav .navbar-collapse > ul:nth-child(2) li {
+  padding: 0 10px;
+}
+
+.nav .navbar-collapse > ul:nth-child(2) li a svg {
+  font-size: 22px;
+  color: #282828;
+  color: #282828;
+}
+
+.nav .navbar-collapse > ul:nth-child(1) li {
+  padding: 0 25px;
+}
+
+.nav .navbar-collapse > ul:nth-child(1) li a {
+  font-size: 18px;
+  color: #282828;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  padding: 0;
+  border-bottom: 1.5px solid transparent;
+}
+
+.nav .navbar-collapse > ul:nth-child(1) li a:hover {
+  border-bottom: 2px solid #282828;
+  padding: 0;
+}
+
+.nav .navbar-collapse > ul:nth-child(1) li .active {
+  border-bottom: 2px solid #282828;
+}
+/*# sourceMappingURL=style.css.map */
